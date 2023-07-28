@@ -12,9 +12,10 @@ int main() {
         {otpay=(hrs-40)*120;}
         else
         {otpay=0;}
-    }
+    
     printf("hrs=%d\totpay=%f",hrs,otpay);
     i++;
+    }
     return 0; 
     
 }

@@ -3,6 +3,7 @@
 
 int main() {
     int pos,neg,zero,num;
+    pos=neg=zero=0;
     char ans='y';
     while(ans=='y')
     {
@@ -18,8 +19,8 @@ int main() {
         printf("\nwanna continue?");
         scanf("%c",&ans);
     }
-    printf("%d +ve nos",pos);
-    printf("%d -ve nos",neg);
-    printf("%d zeros",zero);
+    printf("%d +ve nos \n",pos);
+    printf("%d -ve nos \n",neg);
+    printf("%d zeros \n",zero);
     return 0;
 }

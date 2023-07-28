@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int n,a,num,rev=0;
+    int n,a,rev=0;
     printf("enter a three digit no:\t");
-    scanf("%d",&num);
+    scanf("%d",&n);
     a=n%10;
     n=n/10;
     rev=rev+a*100;

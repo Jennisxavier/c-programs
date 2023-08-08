@@ -6,7 +6,7 @@ int main() {
     float otpay;
     while(i<=10)
     {
-        printf("enetr the no of hrs");
+        printf("\nenetr the no of hrs");
         scanf("%d",&hrs);
         if(hrs>40)
         {otpay=(hrs-40)*120;}

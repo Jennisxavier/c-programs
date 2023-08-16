@@ -1,16 +1,18 @@
 #include <stdio.h>
-void swap();
+void swap(int f,int s);
 int main()
 {
-  swap();
-return 0;
-}
-void swap(){
-    int f,s,temp;    
-printf("enter the first no:");
+  int f,s;
+  printf("enter the first no:");
 scanf("%d",&f);
 printf("enter the second no:");
 scanf("%d",&s);
+  swap(f,s);
+
+return 0;
+}
+void swap(int f,int s){
+ int temp;   
 temp=f;
 f=s;
 s=temp;

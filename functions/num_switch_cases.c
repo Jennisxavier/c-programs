@@ -17,15 +17,15 @@ int main()
         switch(choice)
         {
         case 1:
-        printf("ent a no:\n");
+        printf("\nent a no:\n");
         scanf("%d",&no);
 
-        int fact=1,j;
-        for(j=1;j<=no;j++){
+        int fact=1;
+        for(int j=1;j<=no;j++){
             fact*=j;
+            }
             printf("fact of the no is %d",fact);
             break;
-        }
 
         case 2:
         printf("ent a no:\n");
@@ -42,9 +42,9 @@ int main()
                 else{
                     printf("not prime");
                 }
-            }
+            }}
             break;
-        }
+        
 
         case 3:
         printf("ent a no:\n");

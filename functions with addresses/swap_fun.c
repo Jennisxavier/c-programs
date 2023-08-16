@@ -3,7 +3,7 @@ void swap(int apple,int boy);
 int main()
 {
     int a=2,b=3;
-    swap(apple,boy);
+    swap(a,b);
     printf("\n%d , %d\n",a,b);
     return 0;
 }

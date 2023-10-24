@@ -1,4 +1,4 @@
-#include<stdio.h>                           ans varala
+#include<stdio.h>                         //  ans varala
 #include<math.h>                            //ans varala
 int main()
 {
@@ -8,8 +8,8 @@ int main()
     originalN=no;
     while(originalN!=0){
         originalN=originalN/10;
-        ++n;                                        ans varala
-    }                                                   ans varala
+        ++n;                                       // ans varala
+    }                                                //   ans varala
     originalN=n;
     while(originalN !=0){
         remainder=originalN%10;

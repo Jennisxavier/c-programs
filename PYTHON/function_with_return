@@ -1,0 +1,12 @@
+def add():
+    a=int(input("enter a "))
+    b=int(input("enter b "))
+    c=a+b
+    return(c)
+    
+c=add()
+d=int(input("enter d "))
+e=c*d
+print("ans is ",e)
+
+////////////////
